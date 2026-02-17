@@ -1,0 +1,25 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    background: rgb(194, 88, 122);
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 20vw;
+    height: 20vw;
+    margin: 1vw;
+    border: 2px solid rgb(218, 79, 172);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
